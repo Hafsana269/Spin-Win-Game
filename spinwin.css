@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+#wheelContainer {
+  margin: 0 auto 20px auto;
+  width: 250px;
+  height: 250px;
+}
+
+#wheel {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+    red, 
+    blue, 
+    yellow, 
+    green
+
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 3s ease-out;
+  user-select: none;
+}
+
+#label {
+  background-color: white;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 10px;
+  pointer-events: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  width: 150px;
+  font-weight: bold;
+}
+
+#questionBox {
+  margin-top: 30px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: greenyellow;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px greenyellow;
+  font-weight: bold;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}

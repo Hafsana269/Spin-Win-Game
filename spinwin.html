@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spinner </title>
+  <link rel="stylesheet" href="spinwin.css" />
+</head>
+<body>
+
+  <h1>Spin & Win</h1>
+
+  <div id="wheelContainer">
+    <div id="wheel">
+      <div id="label">Tap to Spin!</div>
+    </div>
+  </div>
+
+  <button onclick="spinWheel()">Spin</button>
+
+  <div id="questionBox" style="display:none;">
+    <h2 id="question"></h2>
+
+    <input type="text" id="userAnswer" placeholder="Type your answer here" />
+    <button onclick="checkAnswer()">Submit</button>
+
+    <p id="result"></p>
+
+    <button onclick="resetQuiz()">Spin Again</button>
+  </div>
+
+  <script src="spinwin.js"></script>
+</body>
+</html>
